@@ -86,6 +86,13 @@
       </center>
     </p>
   
-    <embed autoplay src="/DSX/ss.mp3">
+  <audio id="music" loop>
+      <source src="/DSX/ss.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    function PlayAudio(){
+      document.getElementById("music").play();
+    }
+  
   </body>
 </html>
